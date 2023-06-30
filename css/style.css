@@ -1,0 +1,120 @@
+ *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height:100%;
+            width:100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            padding-top: 75px;
+        }
+        .card{
+            height:500px;
+            width:850px;
+            background-color: white; 
+        }
+		.image{
+			width:100%;
+			height:200px;
+			overflow:none;
+		}
+		.image img{
+			width:100%;
+			object-fit:cover;
+			height:100%;
+		}
+		
+		.content{
+			width:70%;
+			height:300px;
+			position:relative;
+			display:flex;
+			flex-direction:column;
+			padding-top:100px;
+			padding-left:20px;
+			line-height:1.8;
+			
+		}
+		
+		.profile{
+			width: 150px;
+			height:150px;E:\fabevy\dailytask\card-4\image\img1.jpg
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+			padding: 15px;
+			background: #fff;
+			background-image: url(image/img.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 200px;
+			border-radius:400px;
+			border-style:solid;
+			border-color:white;
+			position: absolute;
+			top: -80px;
+			left: 50px;
+		}
+		.content h1 span{
+		font-weight:normal;
+		}
+		.connect{
+			color:blue;
+			
+		}
+		.loc{
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.loc span{
+			color:blue;
+		}
+		a{
+			text-decoration:none;
+		}
+		h1:hover{
+			
+			text-decoration-line:underline;
+			text-decoration-style:wavy;
+			text-decoration-color:#f571df;
+			text-decoration-thickness:3px;	
+		}
+		.contact:hover{
+			background-color:pink;
+			font-size:20px;
+		}
+		.connect:hover{
+			text-shadow:5px 10px 15px blue;
+			text-decoration-line:underline;
+			text-decoration-style:dashed;
+			text-decoration-color:blue;
+			text-decoration-thickness:2px;
+		}
+		.profile:hover{
+			box-shadow:5px 10px 5px pink;
+			transform: scale(1.2);
+		}
+		.image:hover{
+			transform:scale(1.2);
+		}
+		.icon:hover{
+			transform:scale(1.2);
+		}
+		
+		.icon{
+			border:2px solid pink;
+			width:15px;
+			height:15px;
+			border-radius:50%;
+			padding:5px;
+			background-color:pink;
+		}
+		.insta{
+			margin-left:45px;
+			border-radius:50%;
+			padding:5px;
+			background-color:pink;
+		}
+		.insta:hover{
+			transform:scale(1.2);
+		}
